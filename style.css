@@ -33,6 +33,22 @@ table tr th {
     width: calc(100vw/3);
 }
 
+table tr td:has("Aprovado") {
+    color: green;
+}
+
 tr:nth-child(odd) {
     background: rgba(0, 0, 0, 0.2);
+}
+
+tr td:last-child {
+    font-weight: bold;
+}
+
+.aprovado {
+    color: green;
+}
+
+.reprovado {
+    color: red;
 }
